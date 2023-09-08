@@ -1,10 +1,7 @@
-
-import LoginScreen from './modules/login'
+import LoginScreen from './modules/login';
 
 function App() {
-  return (
-    <LoginScreen />
-  )
+  return <LoginScreen />;
 }
 
-export default App
+export default App;
