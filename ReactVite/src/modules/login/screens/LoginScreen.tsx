@@ -1,6 +1,5 @@
-// eslint-disable-next-line prettier/prettier
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prettier/prettier */
+
 import axios from 'axios';
 import { useState } from 'react';
 
@@ -54,7 +53,7 @@ const LoginScreen = () => {
         <TitleLogin level={2} type="secondary">LOGIN</TitleLogin>
         <Input title="USUÁRIO" margin='32px 0px 0px' onChange={handleEmail} value={email}/>
         <Input type='password' title="SENHA" margin='32px 0px 0px' onChange={handlePassword} value={password}/>
-        <Button type="primary" margin='64px 0px 16px 0px'>ENTRAR</Button>
+        <Button type="primary" margin='64px 0px 16px 0px' onClick={handleLogin}>ENTRAR</Button>
       </ContainerLogin>
     </ContainerLoginScreen>
   );
